@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 
 //Connecting to the BlogDB
-mongoose.connect("mongodb+srv://ashmi-admin:test1234@cluster0.y5yga2r.mongodb.net/JournalDB");
+mongoose.connect("mongodb+srv://<username>:<Password>@cluster0.y5yga2r.mongodb.net/JournalDB");
 
 //Creating BlogPost Schema
 const postSchema = new mongoose.Schema({
